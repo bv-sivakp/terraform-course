@@ -1,0 +1,26 @@
+# initialization of provider plugins
+terraform init
+# plan
+terraform plan
+
+# shortcut for plan & apply - avoid this in production
+terraform apply
+
+# terraform plan and write the plan to out file
+terraform plan -out out.terraform
+
+# apply terraform plan using out file
+terraform apply out.terraform
+
+# To destroy terraform created instance
+terraform destroy 
+
+# show current state
+terraform show
+
+# show state in JSON format
+cat terraform.tfstate
+
+terraform fmt
+terraform get (Download and updates the modules)
+terraform graph

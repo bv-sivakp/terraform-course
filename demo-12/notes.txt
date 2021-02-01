@@ -1,0 +1,6 @@
+terraform apply -var RDS_PASSWORD=mypassword
+ssh -i mykey ubuntu@ip-address
+sudo apt-get install mysql-client
+mysql -u root -h mariadbendpoint -p 'mypassword'
+show databases
+host mariadbendpoint (To show the hostname)

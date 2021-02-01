@@ -1,0 +1,15 @@
+After instance creation
+1. Login with ssh
+2. df -h (file system disk usage)
+3. mkfs.ext4 /dev/xvdh (for creating filesystem)
+4. create a directory /data
+5. mount /dev/xvdh /data
+6. df -h (it should the mounted drive with /data)
+7. mount will not be available when you reboot the system. To resolve do following
+  nano /etc/fstab
+  /dev/xvdh /data ext4 defaults 0 0 
+  (To better understand 0 0 $man fstab)
+8. for unmounting data
+   umount /data (without /dev/xvdh)
+   mount /data
+    

@@ -3,3 +3,5 @@
 */terraform.tfstate.backup
 */.terraform
 */mykey*
+*/.terraform.lock.hcl
+*/out.terraform

@@ -1,0 +1,47 @@
+Amazon EC2 AMI Locator
+https://cloud-images.ubuntu.com/locator/ec2/
+
+my ip address
+https://whatismyipaddress.com/
+
+Variables
+Simple Variables
+String 
+Number
+Bool
+
+Complex types
+List(type) & Map(type)
+List: [0,1,2]
+Map: {"key" = "value"}
+
+Set(type) - Like list and can only contain unique values
+Object is like a map but each element have different value
+{
+    firstname="jack"
+    housenumber=10
+}
+Tuple is list each element can have different types [0, "string" , false]
+
+To generate public and private key in linux
+ssh-keygen -f mykey
+
+Other Topics
+template-files
+
+terraforming for non terraform maintained infrastructure
+https://github.com/dtan4/terraforming
+
+
+
+
+
+
+
+
+
+
+
+
+
+
